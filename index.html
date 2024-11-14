@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InstagrammForOneUser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="post">
+        <div class="post-header">
+            <img src="https://avatars.mds.yandex.net/i?id=49ac95183735344140a6e31f953bc3b9_l-9598634-images-thumbs&n=13" alt="Profile photo"/>
+            <div>
+                <span id="title-bold">Vincent van Gogh</span>
+                <span>Zundert, Netherlands</span>
+            </div>
+        </div>
+        <div class="post-content">
+            <img src="https://avatars.mds.yandex.net/i?id=3a01b8fb7bca0d485f3d8a6276d8b5a2_l-7004908-images-thumbs&n=13" alt="photo"/>
+        </div>
+        <div class="post-actions">
+            <button class="like-button" onclick="toggleLike()">
+                <img  alt="Like" class="icon">   
+          
+            </button> 
+            <span class="like-count">0</span>         
+            <button class="add-comment-button" onclick="addComment()">
+                <img src="https://cdn2.iconfinder.com/data/icons/web-iconset-pt-1/100/037_-_comment-1024.png" alt="comment" class="icon"/> 
+            </button>
+         
+            
+        </div>
+        <div class="comments-section">
+            <div class="comments-container">
+            </div>      
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
